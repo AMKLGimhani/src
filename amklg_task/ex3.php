@@ -6,9 +6,14 @@ include 'header.php'; ?>
     to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an <h3> tag.</h1>
 
 <form action="process1.php" method="post">
-    First Name: <input type="text" name="Firstname" required> <br><br>
-    Last Name: <input type="text" name="Lastname" required> <br><br>
-    <input type="submit" name="Submit" required> <br><br>
+    <div class="mb-3"> 
+        First Name: <input type="text" name="Firstname" required> <br><br>
+    </div>
+    <div class="mb-3">
+        Last Name: <input type="text" name="Lastname" required> <br><br>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+
 </form>
 
 
