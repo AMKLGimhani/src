@@ -1,5 +1,5 @@
 <?php 
-
+$title = "Information";
 include 'header.php';
 
 $firstname = $_POST["Firstname"];
