@@ -7,10 +7,10 @@ include 'header.php'; ?>
 
 <form action="process1.php" method="post">
     <div class="mb-3"> 
-        First Name: <input type="text" name="Firstname" required> <br><br>
+        First Name: <input type="text" name="Firstname" required> 
     </div>
     <div class="mb-3">
-        Last Name: <input type="text" name="Lastname" required> <br><br>
+        Last Name: <input type="text" name="Lastname" required> 
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 
