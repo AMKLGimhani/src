@@ -31,7 +31,7 @@ include 'header.php'; ?>
     ?>
 
     <table>
-        <tr><th><S.n.</th> <th>Name </th> <th>
+        <tr><th>S.n.</th><th>Name</th><th>Grade</th></tr>
         <tr>
             <td>1</td>
             <td>John</td>

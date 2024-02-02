@@ -16,5 +16,8 @@ include 'header.php'; ?>
 
 </form>
 
+<h1>HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. 
+    Note, you have already done a table in Exercise 1. If you wish, you can use the same table. </h1>
+
 
 <?php include 'footer.php'; ?>
