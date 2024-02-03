@@ -4,6 +4,9 @@ include 'header.php'; ?>
 
 <body>
 
+<h3>3.1: Create a file (ex3.php): Create a file named ex3.php in your exercise folder. 
+  Ensure that it uses the same layout as your other pages and that your navigation bar includes a link to this exercise.</h3><br>
+
 <h3>3.2: Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement 
     to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an <h3> tag.</h3>
 
@@ -17,6 +20,8 @@ include 'header.php'; ?>
     <button type="submit" class="btn btn-primary">Submit</button>
 
 </form> <br>
+
+<h3>3.3: Bootstrap Styling: Apply Bootstrap styles to the form. Make sure to include the Bootstrap CSS link in your <head> tag.</h3><br>
 
 <h3>3.4: HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. 
     Note, you have already done a table in Exercise 1. If you wish, you can use the same table. </h3>
