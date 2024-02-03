@@ -2,6 +2,8 @@
 $title = "Exercise3: Variable, Strings & Operators";
 include 'header.php'; ?>
 
+<body>
+
 <h3>3.2: Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement 
     to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an <h3> tag.</h3>
 
@@ -52,8 +54,9 @@ include 'header.php'; ?>
 <?php
 $str1 = "Hello";
 $str2 = "World";
-echo $str1." ".$str2."<br>"; 
-echo strlen($str1." ".$str2);
+$stringJoin = $str1." ".$str2;
+ 
+echo strlen($stringJoin);
 ?> <br><br>
 
 <h3>3.6: Number Addition: Write a script to add up the numbers: 298, 234, 46. 
@@ -74,7 +77,14 @@ echo ($direct_text . $sum);
 <h3>3.7: Browser Detection: Write a PHP script to detect the browser being used to view your pages. 
     (Hint: Use predefined variables: $_SERVER)</h3>
 
+<?php
+  echo $_SERVER['SERVER_NAME'];
+?><br><br>
 
+<h3>3.8: File Modification Time: Write a PHP script in the footer section of your universal footer to display the last modification time of a file. 
+  Hint: Use predefined variable $_SERVER, basename function  to get the filename , filetime function to get the last modified time & date function to print the date and time </h3>
+  <br><br>
 
+</body>
 
 <?php include 'footer.php'; ?>

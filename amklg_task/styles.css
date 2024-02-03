@@ -1,6 +1,5 @@
 body{
 
-    background-image: url(Images/background.jpg);
     width: 1200px;
     margin: 16px  auto;
     padding: 12px;
@@ -50,8 +49,12 @@ header{
 
 footer
 {
-    
+    align-content: center;
+    text-align: center;
     padding-top: 12px;
+    padding-bottom: 12px;
+    color: blue;
+    font-weight: bold;
 }
 
 

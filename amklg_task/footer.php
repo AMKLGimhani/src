@@ -1,9 +1,19 @@
 <footer>
     <div class="row">
-            <div class="col-md-4">&copy; Hamk University</div>
-            <div class="col-md-4">Computer Application</div>
-            <div class="col-md-4">Hämeenlinna</div>
+            <div class="col-md-3">&copy; Hamk University</div>
+            <div class="col-md-6">
+            <?php
+       
+                $filename = basename($_SERVER['PHP_SELF']);
+                $modified_time = date("F d Y H:i:s.", filemtime($filename));
+                echo $filename . " was last modified: " . $modified_time;
+
+            ?> 
+            </div>
+            <div class="col-md-3">Hämeenlinna</div>
     </div>
+
+    
 </footer>
 
           
