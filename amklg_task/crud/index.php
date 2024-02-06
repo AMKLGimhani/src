@@ -33,3 +33,4 @@
     </div>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
+<?php include '../header.php'; ?>
