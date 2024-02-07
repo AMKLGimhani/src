@@ -38,6 +38,12 @@
                   <li class="nav-item">
                     <a class="nav-link" href="ex4.php">Exercise 04</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../crud/index.php" style="color:red;">Create Data</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../crud/read.php" style="color:red;">Read Data</a>
+                  </li>
                   
                  
                 </ul>

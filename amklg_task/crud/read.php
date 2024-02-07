@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
     // Loop through the result set and display data in rows
     while ($row = $result->fetch_assoc()) {
         echo "<tr>
-                <td>{$row['id']}</td>
+                <td><a href='updatesingle.php?id=$row[id]' style='color:red;'>$row[id]</a></td>
                 <td>{$row['first_name']}</td>
                 <td>{$row['last_name']}</td>
                 <td>{$row['city']}</td>
@@ -40,4 +40,6 @@ if ($result->num_rows > 0) {
 }
 // close the connection when done
 $conn->close();
+include '../footer.php'; 
 ?>
+
