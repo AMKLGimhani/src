@@ -1,0 +1,67 @@
+body{
+
+    width: 1200px;
+    margin: 16px  auto;
+    padding: 12px;
+   
+}
+
+h2{
+    margin: 10px auto;
+}
+
+header{
+
+    font-size: larger;
+    background-color: burlywood;
+
+}
+.nav-link{
+   color: black;
+  
+}
+
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+.nav-link:hover{
+    color: red;
+
+ }
+
+
+.btn{
+    background-color: pink;
+    border-color: black;
+    color: black;
+}
+
+.btn:hover{
+    background-color: red;
+    border-color: blue;
+}
+
+.img{
+    max-width: 100%; 
+      height: auto;
+}
+
+footer
+{
+    align-content: center;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+    
+@media (max-width: 1200px) {
+    body {
+      width: 90%;
+    }
+  }
+   
